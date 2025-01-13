@@ -3,15 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carosel Image</title>
+    <title>Crosel Image</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Welcome TO Project Craosel</h1>
+            <h1>Welcome To Project Crousel</h1>
         </header>
-        <div class="craouser-container"></div>
+        <div class="crousel-container">
+            <div class="crousel-slide">
+                <img src="https://images.pexels.com/photos/14298707/pexels-photo-14298707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image 1">
+                <img src="https://images.pexels.com/photos/14298706/pexels-photo-14298706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image 2">
+                <img src="https://images.pexels.com/photos/14298705/pexels-photo-14298705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image 3">
+                <img src="https://images.pexels.com/photos/6728956/pexels-photo-6728956.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image 4">
+                
+            </div>
+            <!--navigation button-->
+            <button class="prev-btn">&#10094</button>
+            <button class="next-btn">&#10095</button>
+            <!--carousel indicator-->
+            <div class="crousel-indicator">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+               
+            </div>
+        </div>
+       
     </div>
     <script src="script.js"></script>
 </body>
