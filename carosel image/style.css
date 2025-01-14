@@ -6,12 +6,13 @@ body{
     font-family: Arial, sans-serif;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
     display: flex;
+    background-color: aliceblue;
     margin: 0;
     padding: 0;
     height: 100vh;
-    overflow: hidden;
+    overflow: hidden
+    ;
 }
 
 .container{
@@ -22,37 +23,34 @@ body{
 header{
     text-align: center;
     margin-bottom: 30px;
+
 }
 
 header h1{
+    color: rgb(32, 31, 31);
     font-size: 2em;
     margin-bottom: 10px;
-    color: black;
 }
 
-.crousel-slide{
+.carousel-slide{
     display: flex;
-    transition: tranfrom 0.4s ease-in-out;
+    transition: transfrom 0.4s ease-in-out;
 }
 
-.crousel-container{
+.carousel-container{
     max-width: 1000px;
     position: relative;
     width: 100%;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
-}
-
-.crousel-silde img{
-    width: 100%;
-    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .carousel-slide img{
     width: 100%;
     border-radius: 15px;
 }
+
 .prev-btn, .next-btn{
     position: absolute;
     top: 50%;
@@ -78,7 +76,7 @@ header h1{
 .prev-btn:hover, .next-btn:hover{
     background-color: rgb(0, 0, 0,0.8);
 }
-.crousel-indicator{
+.indicator-carousel{
     position: absolute;
     bottom: 20px;
     left: 50%;
