@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.audio-app {
+    width: 400px;
+    background-color: #f5c72f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.player {
+    margin-bottom: 40px;
+    
+}
+
+.controls {
+    margin: 10px 0;
+}
+
+button {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.progress-container {
+    width: 100%;
+    height: 5px;
+    background: #ddd;
+    margin: 10px 0;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}
+
+#progress-bar {
+    width: 0;
+    height: 100%;
+    background: #007bff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: left;
+}
+
+li {
+    padding: 8px 12px;
+    margin: 5px 0;
+    background: #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+li:hover, .active {
+    background: #007bff;
+    color: #fff;
+}
+
+input{
+    font-size: 18px;
+    color: #0056b3;
+
+}
+
+
+#audio-upload{
+background-color: #f3f0f069;
+
+}
+
+span{
+    border: none;
+    text-align: center;
+    
+}
