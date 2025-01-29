@@ -18,10 +18,12 @@ function creatTaskElement(task){
     span.textContent = task
 
     const editBtn = document.createElement('button')
+    editBtn.textContent = 'Edit'
     editBtn.classList.add('edit-btn')
     editBtn.onclick = () => openModal(li,span)
 
     const deleteBtn = document.createElement('button')
+    deleteBtn.textContent = 'Delete'
     deleteBtn.classList.add('delete-btn')
     deleteBtn.onclick = () => {
         li.remove()
